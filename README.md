@@ -1,6 +1,9 @@
-## jPOS Template
+## jPOS Training Irwansyah
 
-Clone this project in order to create your own jPOS based application.
+I clone jpos project base on jpos documentation and following tutorial on Activisi Media.
+Thank you for tutorial that make me better than before it.
+
+## Next paragraf take it from *README.md* jpos project.
 
 We recommend that you install [Gradle](http://gradle.org/) in order to build your jPOS projects, but if you don't have it installed, you can use the Gradle wrapper scripts `gradlew` and `gradlew.bat`. In the following instructions, when we say `gradle` we really mean either your installed Gradle or one of the wrapper scripts (depending if you are on Unix or DOS based platforms).
 
