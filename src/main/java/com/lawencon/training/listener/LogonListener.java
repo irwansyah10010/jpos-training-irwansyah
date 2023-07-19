@@ -1,4 +1,4 @@
-package com.lawencon.training;
+package com.lawencon.training.listener;
 
 import org.jpos.iso.ISOException;
 import org.jpos.iso.ISOMsg;
@@ -20,6 +20,7 @@ public class LogonListener implements ISORequestListener {
                 res.setMTI("0820");
             }
 
+            res.setHeader("0057".getBytes());
             res.set(39, "00");
 
             source.send(res);
